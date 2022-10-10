@@ -13,7 +13,7 @@ namespace Hangman
         {
             Console.Clear();
             int lives = 5;
-            string secret = "test";
+            string secret = Word.HangmanWord();
             var letters = new List<string>();
 
             while (lives != 0)

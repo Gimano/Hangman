@@ -9,7 +9,7 @@ namespace Hangman
 {
     internal class Word
     {
-        public static void HangmanWord() //metod i class Word som har string array
+        public static string HangmanWord() //metod i class Word som har string array
         {
              string[] huvudstaden =  
              {
@@ -25,6 +25,8 @@ namespace Hangman
             "Soeul",
             };  
             var chosenWord = huvudstaden[new Random().Next(0, huvudstaden.Length - 1)];
+            return chosenWord;
         }
+
     }
 }

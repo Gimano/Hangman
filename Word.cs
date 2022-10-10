@@ -13,16 +13,16 @@ namespace Hangman
         {
              string[] huvudstaden =  
              {
-            "Stockholm",
-            "Tokyo",
-            "Honolulu",
-            "Beijing",
-            "Washington DC",
-            "Canberra",
-            "Budapest",
-            "Helsinki",
-            "Ottowa",
-            "Soeul",
+            "stockholm",
+            "tokyo",
+            "honolulu",
+            "beijing",
+            "washington dc",
+            "canberra",
+            "budapest",
+            "helsinki",
+            "ottowa",
+            "soeul",
             };  
             var chosenWord = huvudstaden[new Random().Next(0, huvudstaden.Length - 1)];
             return chosenWord;

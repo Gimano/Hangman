@@ -1,4 +1,5 @@
-﻿while (true)
+﻿bool game= true;
+while (game)
 {
     Console.WriteLine("Välkommen till Hangman");
     Console.WriteLine("1. Spela\n2. Avsluta");
@@ -9,6 +10,7 @@
             //RunGame();
             break;
         case 2:
+            game = false;
             break;
         default:
             break;
